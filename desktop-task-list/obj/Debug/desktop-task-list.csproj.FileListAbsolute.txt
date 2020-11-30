@@ -7,3 +7,13 @@ C:\Users\Christopher Aram\Documents\UMKC\Fall 2020\CS 456\desktop_task_list\desk
 C:\Users\Christopher Aram\Documents\UMKC\Fall 2020\CS 456\desktop_task_list\desktop-task-list\obj\Debug\desktop-task-list.csproj.CoreCompileInputs.cache
 C:\Users\Christopher Aram\Documents\UMKC\Fall 2020\CS 456\desktop_task_list\desktop-task-list\obj\Debug\desktop-task-list.exe
 C:\Users\Christopher Aram\Documents\UMKC\Fall 2020\CS 456\desktop_task_list\desktop-task-list\obj\Debug\desktop-task-list.pdb
+F:\desktop_task_list\desktop-task-list\bin\Debug\desktop-task-list.exe.config
+F:\desktop_task_list\desktop-task-list\bin\Debug\desktop-task-list.exe
+F:\desktop_task_list\desktop-task-list\bin\Debug\desktop-task-list.pdb
+F:\desktop_task_list\desktop-task-list\obj\Debug\desktop-task-list.csprojAssemblyReference.cache
+F:\desktop_task_list\desktop-task-list\obj\Debug\desktop_task_list.Properties.Resources.resources
+F:\desktop_task_list\desktop-task-list\obj\Debug\desktop-task-list.csproj.GenerateResource.cache
+F:\desktop_task_list\desktop-task-list\obj\Debug\desktop-task-list.csproj.CoreCompileInputs.cache
+F:\desktop_task_list\desktop-task-list\obj\Debug\desktop-task-list.exe
+F:\desktop_task_list\desktop-task-list\obj\Debug\desktop-task-list.pdb
+F:\desktop_task_list\desktop-task-list\obj\Debug\desktop_task_list.Form1.resources
