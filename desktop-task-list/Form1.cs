@@ -30,13 +30,27 @@ namespace desktop_task_list
             // Creating and setting the properties of ListBox
             ListView listView = new ListView();
             listView.Location = new Point(246, 104);
-            listView.Visible = true;
+            listView.Visible = false;
             listView.Items.Add("test 1");
             listView.Items.Add("test 2");
             listView.Items.Add("test 3");
 
             this.Controls.Add(listView);
 
+        }
+
+        private void categoryListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string text = categoryListBox.GetItemText(categoryListBox.SelectedItem);
+
+            MessageBox.Show(text);
+        }
+
+        private void submitButton_Click(object sender, EventArgs e)
+        {
+            String taskText = newTaskTextbox.Text;
+
+            MessageBox.Show(taskText);
         }
     }
 }
