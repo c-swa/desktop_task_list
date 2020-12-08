@@ -33,11 +33,11 @@ namespace desktop_task_list
         private void InitializeComponent()
         {
             this.userTextInput = new System.Windows.Forms.GroupBox();
-            this.newTaskLabel = new System.Windows.Forms.Label();
-            this.newTaskTextbox = new System.Windows.Forms.TextBox();
-            this.submitButton = new System.Windows.Forms.Button();
-            this.categoryListBox = new System.Windows.Forms.ListBox();
             this.categoryLabel = new System.Windows.Forms.Label();
+            this.categoryListBox = new System.Windows.Forms.ListBox();
+            this.submitButton = new System.Windows.Forms.Button();
+            this.newTaskTextbox = new System.Windows.Forms.TextBox();
+            this.newTaskLabel = new System.Windows.Forms.Label();
             this.userTextInput.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,31 +55,14 @@ namespace desktop_task_list
             this.userTextInput.TabStop = false;
             this.userTextInput.Text = "UserInput";
             // 
-            // newTaskLabel
+            // categoryLabel
             // 
-            this.newTaskLabel.AutoSize = true;
-            this.newTaskLabel.Location = new System.Drawing.Point(6, 19);
-            this.newTaskLabel.Name = "newTaskLabel";
-            this.newTaskLabel.Size = new System.Drawing.Size(59, 13);
-            this.newTaskLabel.TabIndex = 0;
-            this.newTaskLabel.Text = "New Task:";
-            // 
-            // newTaskTextbox
-            // 
-            this.newTaskTextbox.Location = new System.Drawing.Point(72, 16);
-            this.newTaskTextbox.Name = "newTaskTextbox";
-            this.newTaskTextbox.Size = new System.Drawing.Size(509, 20);
-            this.newTaskTextbox.TabIndex = 1;
-            // 
-            // submitButton
-            // 
-            this.submitButton.Location = new System.Drawing.Point(587, 14);
-            this.submitButton.Name = "submitButton";
-            this.submitButton.Size = new System.Drawing.Size(75, 23);
-            this.submitButton.TabIndex = 2;
-            this.submitButton.Text = "Submit";
-            this.submitButton.UseVisualStyleBackColor = true;
-            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
+            this.categoryLabel.AutoSize = true;
+            this.categoryLabel.Location = new System.Drawing.Point(13, 42);
+            this.categoryLabel.Name = "categoryLabel";
+            this.categoryLabel.Size = new System.Drawing.Size(52, 13);
+            this.categoryLabel.TabIndex = 4;
+            this.categoryLabel.Text = "Category:";
             // 
             // categoryListBox
             // 
@@ -94,20 +77,37 @@ namespace desktop_task_list
             this.categoryListBox.TabIndex = 3;
             this.categoryListBox.SelectedIndexChanged += new System.EventHandler(this.categoryListBox_SelectedIndexChanged);
             // 
-            // categoryLabel
+            // submitButton
             // 
-            this.categoryLabel.AutoSize = true;
-            this.categoryLabel.Location = new System.Drawing.Point(13, 42);
-            this.categoryLabel.Name = "categoryLabel";
-            this.categoryLabel.Size = new System.Drawing.Size(52, 13);
-            this.categoryLabel.TabIndex = 4;
-            this.categoryLabel.Text = "Category:";
+            this.submitButton.Location = new System.Drawing.Point(587, 14);
+            this.submitButton.Name = "submitButton";
+            this.submitButton.Size = new System.Drawing.Size(75, 23);
+            this.submitButton.TabIndex = 2;
+            this.submitButton.Text = "Submit";
+            this.submitButton.UseVisualStyleBackColor = true;
+            this.submitButton.Click += new System.EventHandler(this.submitButton_Click);
+            // 
+            // newTaskTextbox
+            // 
+            this.newTaskTextbox.Location = new System.Drawing.Point(72, 16);
+            this.newTaskTextbox.Name = "newTaskTextbox";
+            this.newTaskTextbox.Size = new System.Drawing.Size(509, 20);
+            this.newTaskTextbox.TabIndex = 1;
+            // 
+            // newTaskLabel
+            // 
+            this.newTaskLabel.AutoSize = true;
+            this.newTaskLabel.Location = new System.Drawing.Point(6, 19);
+            this.newTaskLabel.Name = "newTaskLabel";
+            this.newTaskLabel.Size = new System.Drawing.Size(59, 13);
+            this.newTaskLabel.TabIndex = 0;
+            this.newTaskLabel.Text = "New Task:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(703, 301);
+            this.ClientSize = new System.Drawing.Size(703, 356);
             this.Controls.Add(this.userTextInput);
             this.Name = "Form1";
             this.Text = "Form1";
