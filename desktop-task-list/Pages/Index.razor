@@ -4,13 +4,34 @@
     <h1>desktop-task-list!</h1>
     <div class="todo-input">
         <input type="text" @bind="todoInput"/>
-        <button @onclick="">Add</button>
+        <button @onclick="AddTodo">Add</button>
     </div>
+
+    @for (var i = 0; i < todos.Count; i++ ){
+
+        var index = i;
+        var todo = todos[i];
+
+        <div class="todo-item">
+            <div class="todo-item__text">@todo</div>
+            <div class="todo-item__close" @onclick="@(() => Remove(index))">&times;</div>
+        </div>
+    }
 </div>
 
 @code
 {
     public string todoInput {get; set;}
+    public List<string> todos = new List<string>();
 
-    
+    public void AddTodo()
+    {
+        todos.Add(todoInput);
+        todoInput="";
+    }
+
+    public void Remove(int index)
+    {
+        todos.RemoveAt(index);
+    }
 }
