@@ -82,13 +82,6 @@ using System.Net.Http;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 5 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\Pages\Index.razor"
-using BlazorTodoApp.Models;
-
-#line default
-#line hidden
-#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,26 +91,43 @@ using BlazorTodoApp.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 40 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\Pages\Index.razor"
+#line 38 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\Pages\Index.razor"
  
+    private const string ServiceEndpoint = "https://localhost:5001/data/todo";
     public string newName {get; set; }
     // public List<Todo> todos = new List<Todo>();
     
+    private Todo editTodo = new Todo();
+    
     private Todo[] todoItems;
 
-    protected override async Task OnInitializedAsync() => todoItems = await Http.GetFromJsonAsync<Todo[]>("data/todo");
+    protected override async Task OnInitializedAsync() => await GetTodos();
 
-    public async Task AddTodo()
+    private async Task GetTodos() => todoItems = await Http.GetFromJsonAsync<Todo[]>(ServiceEndpoint);
+
+    private async Task AddTodo()
     {
         var addTodo = new Todo { Name = newName, IsComplete = false };
         await Http.PostAsJsonAsync("data/todo",newName);
         newName = "";
     }
 
-    public void RemoveTodo(int index)
-    {
+    private async Task SaveTodo(){
+        await Http.PutAsJsonAsync($"{ServiceEndpoint}/{editTodo.Id}", editTodo);
+        await GetTodos();
     }
-    public void MarkAsComplete(Todo todo)
+
+    private async Task DeleteTodo(long id){
+        await Http.DeleteAsync($"{ServiceEndpoint}/{id}");
+        await GetTodos();
+    }
+    
+    private class Todo {
+        public long Id { get; set; }
+        public string Name { get; set; }
+        public bool IsComplete { get; set; }
+    }
+    private void MarkAsComplete(Todo todo)
     {
         todo.IsComplete = !todo.IsComplete;
     }
