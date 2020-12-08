@@ -1151,24 +1151,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\danie\\.nuget\\packages\\": {}
+    "C:\\Users\\Aram\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danie\\Desktop\\School semesters\\Fall 2020\\CS 456\\To-do list final project\\desktop_task_list\\desktop-task-list\\desktop-task-list.csproj",
+      "projectUniqueName": "C:\\Users\\Aram\\Documents\\UMKC\\GitHub\\desktop_task_list\\desktop-task-list\\desktop-task-list.csproj",
       "projectName": "desktop-task-list",
-      "projectPath": "C:\\Users\\danie\\Desktop\\School semesters\\Fall 2020\\CS 456\\To-do list final project\\desktop_task_list\\desktop-task-list\\desktop-task-list.csproj",
-      "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danie\\Desktop\\School semesters\\Fall 2020\\CS 456\\To-do list final project\\desktop_task_list\\desktop-task-list\\obj\\",
+      "projectPath": "C:\\Users\\Aram\\Documents\\UMKC\\GitHub\\desktop_task_list\\desktop-task-list\\desktop-task-list.csproj",
+      "packagesPath": "C:\\Users\\Aram\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aram\\Documents\\UMKC\\GitHub\\desktop_task_list\\desktop-task-list\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Aram\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1222,7 +1224,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
