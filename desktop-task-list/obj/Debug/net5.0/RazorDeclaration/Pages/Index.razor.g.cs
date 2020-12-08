@@ -82,6 +82,13 @@ using desktop_task_list.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\danie\Desktop\School semesters\Fall 2020\CS 456\To-do list final project\desktop_task_list\desktop-task-list\Pages\Index.razor"
+using BlazorTodoApp.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -91,13 +98,26 @@ using desktop_task_list.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\Users\danie\Desktop\School semesters\Fall 2020\CS 456\To-do list final project\desktop_task_list\desktop-task-list\Pages\Index.razor"
+#line 39 "C:\Users\danie\Desktop\School semesters\Fall 2020\CS 456\To-do list final project\desktop_task_list\desktop-task-list\Pages\Index.razor"
  
     public string todoInput {get; set; }
+    public List<Todo> todos = new List<Todo>();
 
     public void AddTodo()
     {
-        Console.WriteLine(todoInput);
+        var todo = new Todo();
+        todo.Title = todoInput;
+        todos.Add(todo);
+        todoInput = "";
+    }
+
+    public void RemoveTodo(int index)
+    {
+        todos.RemoveAt(index); 
+    }
+    public void MarkAsComplete(Todo todo)
+    {
+        todo.IsComplete = !todo.IsComplete;
     }
 
 #line default
