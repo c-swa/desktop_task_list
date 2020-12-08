@@ -41,72 +41,6 @@
         }
       },
       {
-        "HashCode": 400778139,
-        "Kind": "Components.Component",
-        "Name": "desktop_task_list.Pages.Index",
-        "AssemblyName": "desktop-task-list",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "desktop_task_list.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1536295465,
-        "Kind": "Components.Component",
-        "Name": "desktop_task_list.Pages.Index",
-        "AssemblyName": "desktop-task-list",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "desktop_task_list.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "desktop_task_list.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 110291105,
-        "Kind": "Components.Component",
-        "Name": "desktop_task_list.Pages.FetchData",
-        "AssemblyName": "desktop-task-list",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "desktop_task_list.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 69356270,
-        "Kind": "Components.Component",
-        "Name": "desktop_task_list.Pages.FetchData",
-        "AssemblyName": "desktop-task-list",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "desktop_task_list.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "desktop_task_list.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 716521226,
         "Kind": "Components.Component",
         "Name": "desktop_task_list.Shared.SurveyPrompt",
@@ -285,6 +219,72 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "desktop_task_list.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 400778139,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Pages.Index",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1536295465,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Pages.Index",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "desktop_task_list.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 110291105,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Pages.FetchData",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 69356270,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Pages.FetchData",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "desktop_task_list.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
