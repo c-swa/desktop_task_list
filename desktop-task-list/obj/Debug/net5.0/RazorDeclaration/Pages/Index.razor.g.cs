@@ -90,6 +90,16 @@ using desktop_task_list.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 12 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\Pages\Index.razor"
+ 
+    public string todoInput {get; set;}
+
+    
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

@@ -1,7 +1,16 @@
 ﻿@page "/"
 
-<h1>desktop-task-list</h1>
+<div class="todo-container">
+    <h1>desktop-task-list!</h1>
+    <div class="todo-input">
+        <input type="text" @bind="todoInput"/>
+        <button @onclick="">Add</button>
+    </div>
+</div>
 
-Welcome to your new app.
+@code
+{
+    public string todoInput {get; set;}
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    
+}
