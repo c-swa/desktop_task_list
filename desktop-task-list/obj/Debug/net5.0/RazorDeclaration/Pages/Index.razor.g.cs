@@ -13,13 +13,6 @@ namespace desktop_task_list.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\_Imports.razor"
-using System.Net.Http;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 2 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\_Imports.razor"
 using System.Net.Http.Json;
 
@@ -83,7 +76,14 @@ using desktop_task_list.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\Pages\Index.razor"
+#line 2 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\Pages\Index.razor"
+using System.Net.Http;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\Pages\Index.razor"
 using BlazorTodoApp.Models;
 
 #line default
@@ -98,22 +98,24 @@ using BlazorTodoApp.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 39 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\Pages\Index.razor"
+#line 40 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\Pages\Index.razor"
  
-    public string todoInput {get; set; }
-    public List<Todo> todos = new List<Todo>();
+    public string newName {get; set; }
+    // public List<Todo> todos = new List<Todo>();
+    
+    private Todo[] todoItems;
 
-    public void AddTodo()
+    protected override async Task OnInitializedAsync() => todoItems = await Http.GetFromJsonAsync<Todo[]>("data/todo");
+
+    public async Task AddTodo()
     {
-        var todo = new Todo();
-        todo.Title = todoInput;
-        todos.Add(todo);
-        todoInput = "";
+        var addTodo = new Todo { Name = newName, IsComplete = false };
+        await Http.PostAsJsonAsync("data/todo",newName);
+        newName = "";
     }
 
     public void RemoveTodo(int index)
     {
-        todos.RemoveAt(index); 
     }
     public void MarkAsComplete(Todo todo)
     {
@@ -123,6 +125,7 @@ using BlazorTodoApp.Models;
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

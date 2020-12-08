@@ -94,6 +94,7 @@ using desktop_task_list.Shared;
 #line 37 "C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\Pages\FetchData.razor"
        
     private WeatherForecast[] forecasts;
+    private WeatherForecast[] setForecast;
 
     protected override async Task OnInitializedAsync()
     {

@@ -1,24 +1,25 @@
 ﻿@page "/"
+@using System.Net.Http
+@inject HttpClient Http
 
 @using BlazorTodoApp.Models
 
 <div class="todo-container">
-<h1>To-Do Application</h1>
+<h1>desktop-task-list</h1>
 <div class="todo-input">
-    <input type="text" @bind="todoInput"/>
+    <input type="text" @bind="newName" placeholder="Enter New ToDo"/>
     <button @onclick="AddTodo">Add</button>
     </div>  
     
 
-@for (int i = 0; i < todos.Count; i++)
+@foreach (var todo in todoItems)
 {
-    var index = i;
-    var todo = todos[i];
+    var index = 0;
     <div class="todo-item">
         <div 
         class="@(todo.IsComplete ? "todo-item__text complete" : "todo-item__text")" 
         @onclick="@(() =>MarkAsComplete(todo))">
-        @todo.Title
+        @todo.Name
         </div>
         <div class="todo-item__close" @onclick="@(() => RemoveTodo(index))">&times;</div>
     </div>
@@ -37,20 +38,22 @@
 
 @code
 {
-    public string todoInput {get; set; }
-    public List<Todo> todos = new List<Todo>();
+    public string newName {get; set; }
+    // public List<Todo> todos = new List<Todo>();
+    
+    private Todo[] todoItems;
 
-    public void AddTodo()
+    protected override async Task OnInitializedAsync() => todoItems = await Http.GetFromJsonAsync<Todo[]>("data/todo");
+
+    public async Task AddTodo()
     {
-        var todo = new Todo();
-        todo.Title = todoInput;
-        todos.Add(todo);
-        todoInput = "";
+        var addTodo = new Todo { Name = newName, IsComplete = false };
+        await Http.PostAsJsonAsync("data/todo",newName);
+        newName = "";
     }
 
     public void RemoveTodo(int index)
     {
-        todos.RemoveAt(index); 
     }
     public void MarkAsComplete(Todo todo)
     {

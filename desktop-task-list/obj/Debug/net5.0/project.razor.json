@@ -8,39 +8,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -315216103,
-        "Kind": "Components.Component",
-        "Name": "desktop_task_list.App",
-        "AssemblyName": "desktop-task-list",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "desktop_task_list.App"
-        }
-      },
-      {
-        "HashCode": -1873055801,
-        "Kind": "Components.Component",
-        "Name": "desktop_task_list.App",
-        "AssemblyName": "desktop-task-list",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "desktop_task_list.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "desktop_task_list.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 716521226,
         "Kind": "Components.Component",
         "Name": "desktop_task_list.Shared.SurveyPrompt",
@@ -223,35 +190,35 @@
         }
       },
       {
-        "HashCode": 400778139,
+        "HashCode": -315216103,
         "Kind": "Components.Component",
-        "Name": "desktop_task_list.Pages.Index",
+        "Name": "desktop_task_list.App",
         "AssemblyName": "desktop-task-list",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "desktop_task_list.Pages.Index"
+          "Common.TypeName": "desktop_task_list.App"
         }
       },
       {
-        "HashCode": 1536295465,
+        "HashCode": -1873055801,
         "Kind": "Components.Component",
-        "Name": "desktop_task_list.Pages.Index",
+        "Name": "desktop_task_list.App",
         "AssemblyName": "desktop-task-list",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "desktop_task_list.Pages.Index"
+            "TagName": "desktop_task_list.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "desktop_task_list.Pages.Index",
+          "Common.TypeName": "desktop_task_list.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -285,6 +252,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "desktop_task_list.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 400778139,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Pages.Index",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1536295465,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Pages.Index",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "desktop_task_list.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
