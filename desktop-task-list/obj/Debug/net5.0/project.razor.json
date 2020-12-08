@@ -74,6 +74,39 @@
         }
       },
       {
+        "HashCode": 110291105,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Pages.FetchData",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 69356270,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Pages.FetchData",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "desktop_task_list.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 716521226,
         "Kind": "Components.Component",
         "Name": "desktop_task_list.Shared.SurveyPrompt",
