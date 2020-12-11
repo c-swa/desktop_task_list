@@ -8,6 +8,254 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": -315216103,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.App",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.App"
+        }
+      },
+      {
+        "HashCode": -1873055801,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.App",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "desktop_task_list.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 400778139,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Pages.Index",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Pages.Index"
+        }
+      },
+      {
+        "HashCode": 1536295465,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Pages.Index",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "desktop_task_list.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 716521226,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Shared.SurveyPrompt",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -514134325,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Shared.SurveyPrompt",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "desktop_task_list.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 726231856,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Shared.MainLayout",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Shared.MainLayout"
+        }
+      },
+      {
+        "HashCode": -833813673,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Shared.MainLayout",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "desktop_task_list.Shared.MainLayout"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Body",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+            "Metadata": {
+              "Common.PropertyName": "Body",
+              "Components.ChildContent": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Shared.MainLayout",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 660739988,
+        "Kind": "Components.ChildContent",
+        "Name": "desktop_task_list.Shared.MainLayout.Body",
+        "AssemblyName": "desktop-task-list",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "desktop_task_list.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 1090045251,
+        "Kind": "Components.ChildContent",
+        "Name": "desktop_task_list.Shared.MainLayout.Body",
+        "AssemblyName": "desktop-task-list",
+        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Body",
+            "ParentTag": "desktop_task_list.Shared.MainLayout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "desktop_task_list.Shared.MainLayout.Body",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -42078562,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Shared.NavMenu",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 2069535654,
+        "Kind": "Components.Component",
+        "Name": "desktop_task_list.Shared.NavMenu",
+        "AssemblyName": "desktop-task-list",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "desktop_task_list.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "desktop_task_list.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1342441254,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
@@ -12659,6 +12907,42 @@
     "CSharpLanguageVersion": 900
   },
   "RootNamespace": "desktop-task-list",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\Aram\\Documents\\UMKC\\GitHub\\desktop_task_list\\desktop-task-list\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Aram\\Documents\\UMKC\\GitHub\\desktop_task_list\\desktop-task-list\\Shared\\MainLayout.razor",
+      "TargetPath": "Shared\\MainLayout.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Aram\\Documents\\UMKC\\GitHub\\desktop_task_list\\desktop-task-list\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\Aram\\Documents\\UMKC\\GitHub\\desktop_task_list\\desktop-task-list\\App.razor",
+      "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Aram\\Documents\\UMKC\\GitHub\\desktop_task_list\\desktop-task-list\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Aram\\Documents\\UMKC\\GitHub\\desktop_task_list\\desktop-task-list\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Aram\\Documents\\UMKC\\GitHub\\desktop_task_list\\desktop-task-list\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

@@ -1,3 +1,12 @@
 # desktop_task_list
 
-test 1
+A modern and simple task tracking application. 
+
+## Goals.
+- [ ] Add tasks.
+- [ ] Mark tasks.
+- [ ] Record item "series"
+
+## Design.
+- Modern Look.
+- Simple intuitive usability.
