@@ -19,7 +19,7 @@ jobs:
 
     # E. Build and Publish the Blazor WebAssembly App
     - name: Publish app
-      run: dotnet publish -c Release bin/Debug/net5.0/publish
+      run: dotnet publish -c Release bin/Debug/net3.1/publish
 
     # F. The <base> url in index.html needs to be modified depending on where the project is deployed.
     - name: Rewrite base href
