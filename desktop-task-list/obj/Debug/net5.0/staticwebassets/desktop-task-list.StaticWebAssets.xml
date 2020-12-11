@@ -1,4 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Users\Aram\Documents\UMKC\GitHub\desktop_task_list\desktop-task-list\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="B:\desktop_task_list\desktop-task-list\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="B:\desktop_task_list\desktop-task-list\obj\Debug\net5.0\scopedcss\bundle\" />
 </StaticWebAssets>
