@@ -1573,11 +1573,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\desktop_task_list\\desktop-task-list\\desktop-task-list.csproj",
+      "projectUniqueName": "B:\\desktop_task_list\\desktop-task-list.csproj",
       "projectName": "desktop-task-list",
-      "projectPath": "B:\\desktop_task_list\\desktop-task-list\\desktop-task-list.csproj",
+      "projectPath": "B:\\desktop_task_list\\desktop-task-list.csproj",
       "packagesPath": "C:\\Users\\Christopher\\.nuget\\packages\\",
-      "outputPath": "B:\\desktop_task_list\\desktop-task-list\\obj\\",
+      "outputPath": "B:\\desktop_task_list\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Christopher\\AppData\\Roaming\\NuGet\\NuGet.Config",
