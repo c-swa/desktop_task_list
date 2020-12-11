@@ -1568,19 +1568,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Christopher\\.nuget\\packages\\": {}
+    "C:\\Users\\Aram\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\desktop_task_list\\desktop-task-list\\desktop-task-list.csproj",
+      "projectUniqueName": "C:\\Users\\Aram\\Documents\\GitHub\\desktop_task_list\\desktop-task-list\\desktop-task-list.csproj",
       "projectName": "desktop-task-list",
-      "projectPath": "B:\\desktop_task_list\\desktop-task-list\\desktop-task-list.csproj",
-      "packagesPath": "C:\\Users\\Christopher\\.nuget\\packages\\",
-      "outputPath": "B:\\desktop_task_list\\desktop-task-list\\obj\\",
+      "projectPath": "C:\\Users\\Aram\\Documents\\GitHub\\desktop_task_list\\desktop-task-list\\desktop-task-list.csproj",
+      "packagesPath": "C:\\Users\\Aram\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aram\\Documents\\GitHub\\desktop_task_list\\desktop-task-list\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Christopher\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aram\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
