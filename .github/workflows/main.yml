@@ -5,7 +5,8 @@ name: Deploy to GH pages
 # Controls when the action will run. 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch: deploy-test
