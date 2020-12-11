@@ -13,3 +13,8 @@ dotnet run
 ```
 
 # Documents
+## Screenshots
+![](https://github.com/c-swa/desktop_task_list/blob/master/documentation/example1.png)
+![](https://github.com/c-swa/desktop_task_list/blob/master/documentation/example2.png)
+
+Project Report located [here](https://github.com/c-swa/desktop_task_list/blob/master/documentation/CS%20456%20Proposal%20%26%20Report.pdf)
