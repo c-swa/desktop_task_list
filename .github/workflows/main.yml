@@ -3,14 +3,9 @@
 name: Deploy to GH pages
 
 # Controls when the action will run. 
-on:
-  push:
-    branches:
-      - master
+on: push
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch: deploy-test
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   deploy-to-github-pages:
