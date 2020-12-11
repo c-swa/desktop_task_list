@@ -6,6 +6,7 @@ Created by:
 Christopher Aram Swayne, Dalton Gilmore, and Daniel J. Oliveros Guerra
 
 Built for: 
+
 University of Missouri - Kansas City
 Computer Science 456 - Human Computer Interface 
 Professor Wajeb Gharibi
